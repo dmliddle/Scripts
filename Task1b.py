@@ -3,8 +3,14 @@ import sys
 import os
 import arcpy
 
+# Set workspace
+arcpy.env.workspace = "V:\ENV859_PS4\Data"
+
+# Allow overwriting of outputs
+arcpy.env.overwriteOutput = True
+
 # Define the path to the input Streams.shp feature class
-inputFile = 'V:\ENV859_PS4\Data\Streams.shp'
+inputFile = 'Streams.shp'
 
 # Define the buffer distance as "1000 meters"
 buff_dist = "1000 meters"
