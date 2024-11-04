@@ -7,10 +7,10 @@
         "configurations": [
             
             {
-                "name": "Python: Task1d",
+                "name": "Python: Task1c",
                 "type": "python",
                 "request": "launch",
-                "program": "${workspaceFolder}/Task1a.py",
+                "program": "${workspaceFolder}/Task1c.py",
                 "args": ["1000", "V:\\ENV859_PS4\\Scratch\\StrmBuff1km.shp"],
                 "console": "integratedTerminal",
                 "env": {

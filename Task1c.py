@@ -11,7 +11,7 @@ inputFile = "Streams.shp"
 
 # Get user input for buffer distance and output file path
 buffer_dist = arcpy.GetParameterAsText(0)  # e.g., "1000"
-buffer_dist_2 = buffer_dist + " Meters"
+buffer_dist_2 = f"{buffer_dist} meters"
 out_feature_class = arcpy.GetParameterAsText(1) 
 
 # Execute the buffer command
