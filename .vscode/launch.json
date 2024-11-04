@@ -5,12 +5,13 @@
     {
         "version": "0.2.0",
         "configurations": [
+            
             {
-                "name": "Python: Task1a",
+                "name": "Python: Task1d",
                 "type": "python",
                 "request": "launch",
                 "program": "${workspaceFolder}/Task1a.py",
-                "args": ["1000", "V:/ENV859_PS4/Scratch/StrmBuff1km.shp"],
+                "args": ["1000", "V:\\ENV859_PS4\\Scratch\\StrmBuff1km.shp"],
                 "console": "integratedTerminal",
                 "env": {
                     "PYTHONPATH": "c:/Program Files/ArcGIS/Pro/bin/Python/envs/arcgispro-py3"
