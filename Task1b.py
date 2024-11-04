@@ -20,11 +20,7 @@ out_feature_class = 'V:\ENV859_PS4\Scratch\StrmBuff1km.shp'
 
 # Execute the buffer command
 
-arcpy.Buffer_analysis(inputFile, out_feature_class, buff_dist,
-    line_side="FULL",
-    line_end_type="ROUND",
-    dissolve_option="ALL"
-)
+arcpy.Buffer_analysis(inputFile, out_feature_class, buff_dist,"FULL","ROUND", "ALL")
 
 # Display any warnings or errors
 print(arcpy.GetMessages())
