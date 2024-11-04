@@ -15,7 +15,7 @@ buffer_distances = [100, 200, 300, 400, 500]
 # Create a for loop, that iterates through each buffer distance and exports it to an appropriately named output
 for dist in buffer_distances:
     buffer_dist_2 = f"{dist} meters"
-    out_feature_class = out_feature_class = f"V:\\ENV859_PS4\\Scratch\\buff_{dist}m.shp" 
+    out_feature_class = f"V:\\ENV859_PS4\\Scratch\\buff_{dist}m.shp" 
 
     # Execute the buffer command
 
